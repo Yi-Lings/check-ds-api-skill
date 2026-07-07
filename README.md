@@ -10,7 +10,8 @@
 
 ## 安装
 
-将本 skill 添加到你的 Claude/Codex/Openclaw 项目中：```
+将本 skill 添加到你的 Claude/Codex/Openclaw 项目中：
+
 1.对智能体直接说：
 ```bash
 帮我安装这个skill "https://github.com/Yi-Lings/check-ds-api-skill/"
