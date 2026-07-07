@@ -11,7 +11,11 @@
 ## 安装
 
 将本 skill 添加到你的 Claude/Codex/Openclaw 项目中：
-
+1.对智能体直接说：
+```bash
+帮我安装这个skill "https://github.com/Yi-Lings/check-ds-api-skill/"
+```
+2.手动安装：
 ```bash
 # 进入你的项目根目录
 cd /path/to/your/project
@@ -21,7 +25,6 @@ mkdir -p .claude/skills
 
 # 克隆本仓库到 skills 目录
 git clone https://github.com/Yi-Lings/check-ds-api-skill.git .claude/skills/check_ds_api
-或对智能体说：帮我安装https://github.com/Yi-Lings/check-ds-api-skill/这个skill
 ```
 
 ### 依赖
