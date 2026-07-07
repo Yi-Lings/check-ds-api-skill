@@ -4,7 +4,7 @@
 
 通过浏览器自动化登录 [DeepSeek 开放平台](https://platform.deepseek.com/usage)，提取用量信息（余额、消费、各模型 Token 消耗、缓存命中率）并保存为结构化 Excel 报告。
 
-> **本仓库是一个 Claude Agent Skill** — 供 [Claude Code](https://claude.ai/code) 等 AI 助手读取并执行的指令文件，而非传统命令行工具。
+> **本仓库是一个 Agent Skill** — 供 [Claude Code](https://claude.ai/code) 等 AI 助手读取并执行的指令文件，而非传统命令行工具。
 
 ---
 
@@ -27,7 +27,7 @@ git clone https://github.com/Yi-Lings/check-ds-api-skill.git .claude/skills/chec
 
 | 依赖 | 安装 |
 |------|------|
-| [Claude Code](https://claude.ai/code) | 内置 playwright-cli |
+| Claude/Codex/Openclaw| 依赖playwright-cli |
 | Python ≥ 3.8 + openpyxl | `pip install openpyxl` |
 
 > **Windows 注意：** 必须使用 `python`（而非 `python3`）命令。
@@ -36,7 +36,7 @@ git clone https://github.com/Yi-Lings/check-ds-api-skill.git .claude/skills/chec
 
 ## 用法
 
-在 Claude Code 中直接说：
+在 Agent 中直接说：
 
 ```
 查 DeepSeek 用量
